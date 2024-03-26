@@ -1,6 +1,9 @@
+/* eslint-disable react-refresh/only-export-components */
 
-export default function Home() {
-  return (
-    <div>Home</div>
-  )
-}
+import AppLayout from "../components/layout/AppLayout";
+
+const Home = () => {
+  return <div>Home</div>;
+};
+
+export default AppLayout()(Home);
